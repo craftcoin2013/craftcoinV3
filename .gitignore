@@ -56,7 +56,7 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-*.patch
+#*.patch
 *.a
 *.pb.cc
 *.pb.h
@@ -74,7 +74,7 @@ src/qt/test/moc*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
-Makefile
+#Makefile
 craftcoin-qt
 craftcoin-qt
 Bitcoin-Qt.app
