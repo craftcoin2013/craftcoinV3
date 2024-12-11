@@ -1,0 +1,6 @@
+usr/local/bin/craftcoin-qt usr/bin
+share/pixmaps/craftcoin32.xpm usr/share/pixmaps
+share/pixmaps/craftcoin16.xpm usr/share/pixmaps
+share/pixmaps/craftcoin128.png usr/share/pixmaps
+debian/craftcoin-qt.desktop usr/share/applications
+debian/craftcoin-qt.protocol usr/share/kde4/services/

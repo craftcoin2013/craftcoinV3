@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=CraftCoin Core
+Comment=Connect to the CraftCoin P2P Network
+Comment[de]=Verbinde mit dem CraftCoin peer-to-peer Netzwerk
+Comment[fr]=CraftCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CraftCoin, eşten eşe kriptografik sanal para birimi
+Exec=craftcoin-qt %u
+Terminal=false
+Type=Application
+Icon=craftcoin128
+MimeType=x-scheme-handler/craftcoin;
+Categories=Office;Finance;
