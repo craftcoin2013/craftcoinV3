@@ -1,15 +1,21 @@
 <h1 align="center">
-<img src="https://pbs.twimg.com/media/GZhUfpHWwA8P4B_?format=png&name=small" data-canonical-src="https://pbs.twimg.com/media/GZhUfpHWwA8P4B_?format=png&name=small" width="250" height="250" alt="CraftCoin"/>
+<img src="https://craftcoin.info/images/coin-opt.png" data-canonical-src="https://craftcoin.info/images/coin-opt.png" width="250" height="250" alt="CraftCoin"/>
 <br/><br/>
 CraftCoin [CRC]
 </h1>
 
 <div align="center">
 
-[![CraftCoinBadge](https://img.shields.io/badge/CraftCoin-Coin-blue)](https://craftcoinfoundation.org)
-[![MuchWow](https://img.shields.io/badge/OG-Coin-yellow.svg)](https://craftcoinfoundation.org)
+[![CraftCoinBadge](https://img.shields.io/badge/CraftCoin-Coin-blue)](https://craftcoin.info)
+[![MuchWow](https://img.shields.io/badge/OG-Coin-yellow.svg)](https://craftcoin.info)
 
 </div>
+
+DO NOT USE THIS CODE. THIS IS AN EXPERIMENT. DO NOT USE THIS CODE. THIS IS AN EXPERIMENT. DO NOT USE THIS CODE. THIS IS AN EXPERIMENT. DO NOT USE THIS CODE. THIS IS AN EXPERIMENT. DO NOT USE THIS CODE. THIS IS AN EXPERIMENT. DO NOT USE THIS CODE. THIS IS AN EXPERIMENT. DO NOT USE THIS CODE. THIS IS AN EXPERIMENT. DO NOT USE THIS CODE. THIS IS AN EXPERIMENT. 
+
+BY USING THIS CODE YOU ARE AWARE THAT YOU ARE IGNORING THE FOLLOWING WARNING AND PUT YOURSELF IN A POTENTIAL LOST OF FUNDS OR EXPLOIT. THIS CODE HAS NOT BEEN AUDITED IN ANY MEAN AND SHOULD **NOT** BE USED. USER HAVE BEEN WARNED.
+
+SPECIAL THANKS TO ORIGINAL CRAFTCOIN DEVELOPERS AND DEVELOPERS OF GIFcoin/CraftCoin
 
 ## What's New in V3.0.0?
 This release is an update aimed at modernizing the Craftcoin blockchain with AuxPow support for merged mining.
@@ -19,36 +25,40 @@ This release is an update aimed at modernizing the Craftcoin blockchain with Aux
 - **Updated Dependencies**: Incorporates updates to critical libraries for improved performance and compatibility.
 - **Optimized Performance**: Various improvements for better stability and efficiency.
 
-## Technical Specifications
-- **Block Time**: 1 minute target
-- **Initial Reward**: 88 coins per block, halving every 2 months (100,000 blocks)
-- **Total Supply**: ~20 million coins
-- **Port**: 9917 (connection), 9918 (RPC)
-- **Random Bonus Blocks**: Variable reward system as detailed below.
+## Technical Parameters
+The following parameters are preserved from the original CraftCoin repository (circa 2013) to maintain compatibility with the original blockchain:
 
-### Random Bonus Blocks
-**First 50,000 Blocks (Initial Month)**:
-- 5% chance of 188 coins/block
-- 1% chance of 588 coins/block
-- 0.01% chance of 5,888 coins/block (approximately 5 occurrences ected)
+### New Parameters (Starting Block 32000)
+*From original 2013 GitHub repository*
+- 1 Minute blocktime target (Faster transactions!)
+- 2 Coins per block (Adjusted for faster blocks, same targeted payout per hour as before)
+- 100,000,000 Total Coins (unchanged)
+- Difficulty Adjustment Every 60 Blocks (1 hour) sampling last 240 blocks (4 hours)
+- Reduced max diff adjustment to 25% (from 100% previously)
 
-**Post 50,000 Blocks**:
-- 5% chance of 2x normal coins
-- 1% chance of 5x normal coins
-- 0.01% chance of 58x normal coins
+These changes result in a more stable, faster blockchain.
 
-## Official Resources
-Visit the [Craftcoin website](https://craftcoinfoundation.org) for more details, updates, and community engagement.
+### Old Parameters (Until Block 32000)
+*From original 2013 GitHub repository*
+- 10 Coins Per Block
+- 5 Minutes Between Blocks
+- 100,000,000 Total Coins
+- Difficulty Adjustment Every 12 Blocks
 
-## Development Process
-Developers should work on their own branches and submit pull requests when features or fixes are ready. The master branch is tested regularly but is not guaranteed to be stable. Feature branches are used for significant updates involving multiple contributors.
+## Implementation
 
-### Guidelines:
-- Expect review and rework if necessary.
-- Pull requests may be closed after 15 days of inactivity, marked as 'stagnant'.
+A comprehensive package containing all necessary software and plugins to implement CRC on Minecraft servers will be available soon. Please check back for updates.
 
-## Contribution
-Contributions are welcomed. Ensure that your pull requests adhere to project standards and are thoroughly tested.
+## Development process
 
-## License
-Released under the MIT License. See `COPYING` for more information.
+Developers work in their own trees, then submit pull requests when they think their feature or bug fix is ready.
+
+The patch will be accepted if there is broad consensus that it is a good thing. Developers should expect to rework and resubmit patches if they don't match the project's coding conventions (see coding.txt) or are controversial.
+
+The master branch is regularly built and tested, but is not guaranteed to be completely stable. Tags are regularly created to indicate new official, stable release versions of CraftCoin.
+
+Feature branches are created when there are major new features being worked on by several people.
+
+From time to time a pull request will become outdated. If this occurs, and the pull is no longer automatically mergeable; a comment on the pull will be used to issue a warning of closure. The pull will be closed 15 days after the warning if action is not taken by the author. Pull requests closed in this manner will have their corresponding issue labeled 'stagnant'.
+
+Issues with no commits will be given a similar warning, and closed after 15 days from their last activity. Issues closed in this manner will be labeled 'stale'.
