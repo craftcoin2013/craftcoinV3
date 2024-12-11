@@ -1,0 +1,104 @@
+bench/bench_craftcoin-perf.o: bench/perf.cpp \
+ /usr/aarch64-linux-gnu/include/stdc-predef.h bench/perf.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/11/include/stdint.h \
+ /usr/aarch64-linux-gnu/include/stdint.h \
+ /usr/aarch64-linux-gnu/include/bits/libc-header-start.h \
+ /usr/aarch64-linux-gnu/include/features.h \
+ /usr/aarch64-linux-gnu/include/features-time64.h \
+ /usr/aarch64-linux-gnu/include/bits/wordsize.h \
+ /usr/aarch64-linux-gnu/include/bits/timesize.h \
+ /usr/aarch64-linux-gnu/include/sys/cdefs.h \
+ /usr/aarch64-linux-gnu/include/bits/long-double.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h \
+ /usr/aarch64-linux-gnu/include/bits/types.h \
+ /usr/aarch64-linux-gnu/include/bits/typesizes.h \
+ /usr/aarch64-linux-gnu/include/bits/time64.h \
+ /usr/aarch64-linux-gnu/include/bits/wchar.h \
+ /usr/aarch64-linux-gnu/include/bits/stdint-intn.h \
+ /usr/aarch64-linux-gnu/include/bits/stdint-uintn.h \
+ /usr/aarch64-linux-gnu/include/unistd.h \
+ /usr/aarch64-linux-gnu/include/bits/posix_opt.h \
+ /usr/aarch64-linux-gnu/include/bits/environments.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/11/include/stddef.h \
+ /usr/aarch64-linux-gnu/include/bits/confname.h \
+ /usr/aarch64-linux-gnu/include/bits/getopt_posix.h \
+ /usr/aarch64-linux-gnu/include/bits/getopt_core.h \
+ /usr/aarch64-linux-gnu/include/bits/unistd.h \
+ /usr/aarch64-linux-gnu/include/bits/unistd_ext.h \
+ /usr/aarch64-linux-gnu/include/linux/close_range.h \
+ /usr/aarch64-linux-gnu/include/sys/syscall.h \
+ /usr/aarch64-linux-gnu/include/asm/unistd.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/unistd.h \
+ /usr/aarch64-linux-gnu/include/asm/bitsperlong.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/bitsperlong.h \
+ /usr/aarch64-linux-gnu/include/bits/syscall.h \
+ /usr/aarch64-linux-gnu/include/linux/perf_event.h \
+ /usr/aarch64-linux-gnu/include/linux/types.h \
+ /usr/aarch64-linux-gnu/include/asm/types.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/types.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/int-ll64.h \
+ /usr/aarch64-linux-gnu/include/linux/posix_types.h \
+ /usr/aarch64-linux-gnu/include/linux/stddef.h \
+ /usr/aarch64-linux-gnu/include/asm/posix_types.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/posix_types.h \
+ /usr/aarch64-linux-gnu/include/linux/ioctl.h \
+ /usr/aarch64-linux-gnu/include/asm/ioctl.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/ioctl.h \
+ /usr/aarch64-linux-gnu/include/asm/byteorder.h \
+ /usr/aarch64-linux-gnu/include/linux/byteorder/little_endian.h \
+ /usr/aarch64-linux-gnu/include/linux/swab.h \
+ /usr/aarch64-linux-gnu/include/asm/swab.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/swab.h
+/usr/aarch64-linux-gnu/include/stdc-predef.h:
+bench/perf.h:
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/include/stdint.h:
+/usr/aarch64-linux-gnu/include/stdint.h:
+/usr/aarch64-linux-gnu/include/bits/libc-header-start.h:
+/usr/aarch64-linux-gnu/include/features.h:
+/usr/aarch64-linux-gnu/include/features-time64.h:
+/usr/aarch64-linux-gnu/include/bits/wordsize.h:
+/usr/aarch64-linux-gnu/include/bits/timesize.h:
+/usr/aarch64-linux-gnu/include/sys/cdefs.h:
+/usr/aarch64-linux-gnu/include/bits/long-double.h:
+/usr/aarch64-linux-gnu/include/gnu/stubs.h:
+/usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h:
+/usr/aarch64-linux-gnu/include/bits/types.h:
+/usr/aarch64-linux-gnu/include/bits/typesizes.h:
+/usr/aarch64-linux-gnu/include/bits/time64.h:
+/usr/aarch64-linux-gnu/include/bits/wchar.h:
+/usr/aarch64-linux-gnu/include/bits/stdint-intn.h:
+/usr/aarch64-linux-gnu/include/bits/stdint-uintn.h:
+/usr/aarch64-linux-gnu/include/unistd.h:
+/usr/aarch64-linux-gnu/include/bits/posix_opt.h:
+/usr/aarch64-linux-gnu/include/bits/environments.h:
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/include/stddef.h:
+/usr/aarch64-linux-gnu/include/bits/confname.h:
+/usr/aarch64-linux-gnu/include/bits/getopt_posix.h:
+/usr/aarch64-linux-gnu/include/bits/getopt_core.h:
+/usr/aarch64-linux-gnu/include/bits/unistd.h:
+/usr/aarch64-linux-gnu/include/bits/unistd_ext.h:
+/usr/aarch64-linux-gnu/include/linux/close_range.h:
+/usr/aarch64-linux-gnu/include/sys/syscall.h:
+/usr/aarch64-linux-gnu/include/asm/unistd.h:
+/usr/aarch64-linux-gnu/include/asm-generic/unistd.h:
+/usr/aarch64-linux-gnu/include/asm/bitsperlong.h:
+/usr/aarch64-linux-gnu/include/asm-generic/bitsperlong.h:
+/usr/aarch64-linux-gnu/include/bits/syscall.h:
+/usr/aarch64-linux-gnu/include/linux/perf_event.h:
+/usr/aarch64-linux-gnu/include/linux/types.h:
+/usr/aarch64-linux-gnu/include/asm/types.h:
+/usr/aarch64-linux-gnu/include/asm-generic/types.h:
+/usr/aarch64-linux-gnu/include/asm-generic/int-ll64.h:
+/usr/aarch64-linux-gnu/include/linux/posix_types.h:
+/usr/aarch64-linux-gnu/include/linux/stddef.h:
+/usr/aarch64-linux-gnu/include/asm/posix_types.h:
+/usr/aarch64-linux-gnu/include/asm-generic/posix_types.h:
+/usr/aarch64-linux-gnu/include/linux/ioctl.h:
+/usr/aarch64-linux-gnu/include/asm/ioctl.h:
+/usr/aarch64-linux-gnu/include/asm-generic/ioctl.h:
+/usr/aarch64-linux-gnu/include/asm/byteorder.h:
+/usr/aarch64-linux-gnu/include/linux/byteorder/little_endian.h:
+/usr/aarch64-linux-gnu/include/linux/swab.h:
+/usr/aarch64-linux-gnu/include/asm/swab.h:
+/usr/aarch64-linux-gnu/include/asm-generic/swab.h:

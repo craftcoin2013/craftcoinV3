@@ -1,0 +1,130 @@
+leveldb/util/libleveldb_a-arena.o: leveldb/util/arena.cc \
+ /usr/aarch64-linux-gnu/include/stdc-predef.h leveldb/util/arena.h \
+ /usr/aarch64-linux-gnu/include/c++/11/atomic \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/atomic_base.h \
+ /usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/c++config.h \
+ /usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/os_defines.h \
+ /usr/aarch64-linux-gnu/include/features.h \
+ /usr/aarch64-linux-gnu/include/features-time64.h \
+ /usr/aarch64-linux-gnu/include/bits/wordsize.h \
+ /usr/aarch64-linux-gnu/include/bits/timesize.h \
+ /usr/aarch64-linux-gnu/include/sys/cdefs.h \
+ /usr/aarch64-linux-gnu/include/bits/long-double.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h \
+ /usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/cpu_defines.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/11/include/stdint.h \
+ /usr/aarch64-linux-gnu/include/stdint.h \
+ /usr/aarch64-linux-gnu/include/bits/libc-header-start.h \
+ /usr/aarch64-linux-gnu/include/bits/types.h \
+ /usr/aarch64-linux-gnu/include/bits/typesizes.h \
+ /usr/aarch64-linux-gnu/include/bits/time64.h \
+ /usr/aarch64-linux-gnu/include/bits/wchar.h \
+ /usr/aarch64-linux-gnu/include/bits/stdint-intn.h \
+ /usr/aarch64-linux-gnu/include/bits/stdint-uintn.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/move.h \
+ /usr/aarch64-linux-gnu/include/c++/11/type_traits \
+ /usr/aarch64-linux-gnu/include/c++/11/cassert \
+ /usr/aarch64-linux-gnu/include/assert.h \
+ /usr/aarch64-linux-gnu/include/c++/11/cstddef \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/11/include/stddef.h \
+ /usr/aarch64-linux-gnu/include/c++/11/cstdint \
+ /usr/aarch64-linux-gnu/include/c++/11/vector \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/stl_algobase.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/functexcept.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/exception_defines.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/cpp_type_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/11/ext/type_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/11/ext/numeric_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/stl_pair.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/stl_iterator_base_types.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/stl_iterator_base_funcs.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/concept_check.h \
+ /usr/aarch64-linux-gnu/include/c++/11/debug/assertions.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/stl_iterator.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/ptr_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/11/debug/debug.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/predefined_ops.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/c++allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/11/ext/new_allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/11/new \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/exception.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/memoryfwd.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/stl_construct.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/stl_uninitialized.h \
+ /usr/aarch64-linux-gnu/include/c++/11/ext/alloc_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/alloc_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/stl_vector.h \
+ /usr/aarch64-linux-gnu/include/c++/11/initializer_list \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/stl_bvector.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/functional_hash.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/hash_bytes.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/range_access.h \
+ /usr/aarch64-linux-gnu/include/c++/11/bits/vector.tcc
+/usr/aarch64-linux-gnu/include/stdc-predef.h:
+leveldb/util/arena.h:
+/usr/aarch64-linux-gnu/include/c++/11/atomic:
+/usr/aarch64-linux-gnu/include/c++/11/bits/atomic_base.h:
+/usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/c++config.h:
+/usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/os_defines.h:
+/usr/aarch64-linux-gnu/include/features.h:
+/usr/aarch64-linux-gnu/include/features-time64.h:
+/usr/aarch64-linux-gnu/include/bits/wordsize.h:
+/usr/aarch64-linux-gnu/include/bits/timesize.h:
+/usr/aarch64-linux-gnu/include/sys/cdefs.h:
+/usr/aarch64-linux-gnu/include/bits/long-double.h:
+/usr/aarch64-linux-gnu/include/gnu/stubs.h:
+/usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h:
+/usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/cpu_defines.h:
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/include/stdint.h:
+/usr/aarch64-linux-gnu/include/stdint.h:
+/usr/aarch64-linux-gnu/include/bits/libc-header-start.h:
+/usr/aarch64-linux-gnu/include/bits/types.h:
+/usr/aarch64-linux-gnu/include/bits/typesizes.h:
+/usr/aarch64-linux-gnu/include/bits/time64.h:
+/usr/aarch64-linux-gnu/include/bits/wchar.h:
+/usr/aarch64-linux-gnu/include/bits/stdint-intn.h:
+/usr/aarch64-linux-gnu/include/bits/stdint-uintn.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/atomic_lockfree_defines.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/move.h:
+/usr/aarch64-linux-gnu/include/c++/11/type_traits:
+/usr/aarch64-linux-gnu/include/c++/11/cassert:
+/usr/aarch64-linux-gnu/include/assert.h:
+/usr/aarch64-linux-gnu/include/c++/11/cstddef:
+/usr/lib/gcc-cross/aarch64-linux-gnu/11/include/stddef.h:
+/usr/aarch64-linux-gnu/include/c++/11/cstdint:
+/usr/aarch64-linux-gnu/include/c++/11/vector:
+/usr/aarch64-linux-gnu/include/c++/11/bits/stl_algobase.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/functexcept.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/exception_defines.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/cpp_type_traits.h:
+/usr/aarch64-linux-gnu/include/c++/11/ext/type_traits.h:
+/usr/aarch64-linux-gnu/include/c++/11/ext/numeric_traits.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/stl_pair.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/stl_iterator_base_types.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/stl_iterator_base_funcs.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/concept_check.h:
+/usr/aarch64-linux-gnu/include/c++/11/debug/assertions.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/stl_iterator.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/ptr_traits.h:
+/usr/aarch64-linux-gnu/include/c++/11/debug/debug.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/predefined_ops.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/allocator.h:
+/usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/c++allocator.h:
+/usr/aarch64-linux-gnu/include/c++/11/ext/new_allocator.h:
+/usr/aarch64-linux-gnu/include/c++/11/new:
+/usr/aarch64-linux-gnu/include/c++/11/bits/exception.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/memoryfwd.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/stl_construct.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/stl_uninitialized.h:
+/usr/aarch64-linux-gnu/include/c++/11/ext/alloc_traits.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/alloc_traits.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/stl_vector.h:
+/usr/aarch64-linux-gnu/include/c++/11/initializer_list:
+/usr/aarch64-linux-gnu/include/c++/11/bits/stl_bvector.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/functional_hash.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/hash_bytes.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/range_access.h:
+/usr/aarch64-linux-gnu/include/c++/11/bits/vector.tcc:

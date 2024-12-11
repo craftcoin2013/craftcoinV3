@@ -1,0 +1,4 @@
+script/libdogecoinconsensus_la-script_error.lo: script/script_error.cpp \
+ /usr/aarch64-linux-gnu/include/stdc-predef.h script/script_error.h
+/usr/aarch64-linux-gnu/include/stdc-predef.h:
+script/script_error.h:
