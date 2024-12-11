@@ -15,7 +15,7 @@ DO NOT USE THIS CODE. THIS IS AN EXPERIMENT. DO NOT USE THIS CODE. THIS IS AN EX
 
 BY USING THIS CODE YOU ARE AWARE THAT YOU ARE IGNORING THE FOLLOWING WARNING AND PUT YOURSELF IN A POTENTIAL LOST OF FUNDS OR EXPLOIT. THIS CODE HAS NOT BEEN AUDITED IN ANY MEAN AND SHOULD **NOT** BE USED. USER HAVE BEEN WARNED.
 
-SPECIAL THANKS TO ORIGINAL CRAFTCOIN DEVELOPERS AND DEVELOPERS OF GIFcoin/CraftCoin
+SPECIAL THANKS TO ORIGINAL CRAFTCOIN DEVELOPERS AND DEVELOPERS OF [craftcoin/craftcoin](https://github.com/craftcoin/craftcoin)
 
 ## What's New in V3.0.0?
 This release is an update aimed at modernizing the Craftcoin blockchain with AuxPow support for merged mining.
@@ -26,7 +26,7 @@ This release is an update aimed at modernizing the Craftcoin blockchain with Aux
 - **Optimized Performance**: Various improvements for better stability and efficiency.
 
 ## Technical Parameters
-The following parameters are preserved from the original CraftCoin repository (circa 2013) to maintain compatibility with the original blockchain:
+The following parameters are preserved from the original CraftCoin repository 2013:
 
 ### New Parameters (Starting Block 32000)
 *From original 2013 GitHub repository*
