@@ -1,56 +1,55 @@
 compat/libdogecoin_util_a-glibc_sanity.o: compat/glibc_sanity.cpp \
- /usr/aarch64-linux-gnu/include/stdc-predef.h config/bitcoin-config.h \
- /usr/aarch64-linux-gnu/include/c++/11/cstddef \
- /usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/c++config.h \
- /usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/os_defines.h \
- /usr/aarch64-linux-gnu/include/features.h \
- /usr/aarch64-linux-gnu/include/features-time64.h \
- /usr/aarch64-linux-gnu/include/bits/wordsize.h \
- /usr/aarch64-linux-gnu/include/bits/timesize.h \
- /usr/aarch64-linux-gnu/include/sys/cdefs.h \
- /usr/aarch64-linux-gnu/include/bits/long-double.h \
- /usr/aarch64-linux-gnu/include/gnu/stubs.h \
- /usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h \
- /usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/cpu_defines.h \
- /usr/lib/gcc-cross/aarch64-linux-gnu/11/include/stddef.h \
- /usr/aarch64-linux-gnu/include/sys/select.h \
- /usr/aarch64-linux-gnu/include/bits/types.h \
- /usr/aarch64-linux-gnu/include/bits/typesizes.h \
- /usr/aarch64-linux-gnu/include/bits/time64.h \
- /usr/aarch64-linux-gnu/include/bits/select.h \
- /usr/aarch64-linux-gnu/include/bits/types/sigset_t.h \
- /usr/aarch64-linux-gnu/include/bits/types/__sigset_t.h \
- /usr/aarch64-linux-gnu/include/bits/types/time_t.h \
- /usr/aarch64-linux-gnu/include/bits/types/struct_timeval.h \
- /usr/aarch64-linux-gnu/include/bits/types/struct_timespec.h \
- /usr/aarch64-linux-gnu/include/bits/endian.h \
- /usr/aarch64-linux-gnu/include/bits/endianness.h \
- /usr/aarch64-linux-gnu/include/bits/select2.h
-/usr/aarch64-linux-gnu/include/stdc-predef.h:
+ /usr/include/stdc-predef.h config/bitcoin-config.h \
+ /usr/include/c++/11/cstddef \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h
+/usr/include/stdc-predef.h:
 config/bitcoin-config.h:
-/usr/aarch64-linux-gnu/include/c++/11/cstddef:
-/usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/c++config.h:
-/usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/os_defines.h:
-/usr/aarch64-linux-gnu/include/features.h:
-/usr/aarch64-linux-gnu/include/features-time64.h:
-/usr/aarch64-linux-gnu/include/bits/wordsize.h:
-/usr/aarch64-linux-gnu/include/bits/timesize.h:
-/usr/aarch64-linux-gnu/include/sys/cdefs.h:
-/usr/aarch64-linux-gnu/include/bits/long-double.h:
-/usr/aarch64-linux-gnu/include/gnu/stubs.h:
-/usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h:
-/usr/aarch64-linux-gnu/include/c++/11/aarch64-linux-gnu/bits/cpu_defines.h:
-/usr/lib/gcc-cross/aarch64-linux-gnu/11/include/stddef.h:
-/usr/aarch64-linux-gnu/include/sys/select.h:
-/usr/aarch64-linux-gnu/include/bits/types.h:
-/usr/aarch64-linux-gnu/include/bits/typesizes.h:
-/usr/aarch64-linux-gnu/include/bits/time64.h:
-/usr/aarch64-linux-gnu/include/bits/select.h:
-/usr/aarch64-linux-gnu/include/bits/types/sigset_t.h:
-/usr/aarch64-linux-gnu/include/bits/types/__sigset_t.h:
-/usr/aarch64-linux-gnu/include/bits/types/time_t.h:
-/usr/aarch64-linux-gnu/include/bits/types/struct_timeval.h:
-/usr/aarch64-linux-gnu/include/bits/types/struct_timespec.h:
-/usr/aarch64-linux-gnu/include/bits/endian.h:
-/usr/aarch64-linux-gnu/include/bits/endianness.h:
-/usr/aarch64-linux-gnu/include/bits/select2.h:
+/usr/include/c++/11/cstddef:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+/usr/include/features.h:
+/usr/include/features-time64.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+/usr/include/x86_64-linux-gnu/bits/select.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/include/x86_64-linux-gnu/bits/select2.h:
