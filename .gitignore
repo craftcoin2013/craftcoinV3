@@ -1,14 +1,14 @@
 *.tar.gz
 
 *.exe
-src/luckycoin
-src/luckycoind
-src/luckycoin-cli
-src/luckycoin-tx
-src/test/test_luckycoin
-src/test/test_luckycoin_fuzzy
-src/qt/test/test_luckycoin-qt
-src/bench/bench_luckycoin
+src/craftcoin
+src/craftcoind
+src/craftcoin-cli
+src/craftcoin-tx
+src/test/test_craftcoin
+src/test/test_craftcoin_fuzzy
+src/qt/test/test_craftcoin-qt
+src/bench/bench_craftcoin
 
 # autoreconf
 Makefile.in
@@ -75,14 +75,14 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-luckycoin-qt
-luckycoin-qt
+craftcoin-qt
+craftcoin-qt
 Bitcoin-Qt.app
 
 # Unit-tests
 Makefile.test
-luckycoin-qt_test
-luckycoin-qt_test
+craftcoin-qt_test
+craftcoin-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -128,8 +128,8 @@ stage/
 *.iws
 *.iml
 *.ipr
-src/luckycoin-cli
-src/luckycoin-cli
-luckycoin_child
-luckycoin_parent
+src/craftcoin-cli
+src/craftcoin-cli
+craftcoin_child
+craftcoin_parent
 configure~
